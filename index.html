@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="menubar">
+        <label for="menubar" class="open"><i class="fa-solid fa-bars"></i></label>
+        <label for="menubar" class="close"><i class="fa-solid fa-xmark"></i></label>
+        <a href="" class="logo"><img src="./logo.png" alt=""></a>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Bank Details</a></li>
+            <li><a href="#">Other Websites</a></li>
+        </ul>
+        <div class="btn">
+            <button>Donate</button>
+            <button>Be a Sponsor</button>
+
+        </div>
+    </nav>
+    <div class="home-content">
+        <div class="home-text">
+            <h1>Welcome to the <br> <span>Saylani</span> Welfare</h1>
+            <h2>The largest NGO offering free <span id="element"></span></h2>
+            <p>Saylani Welfare is on the ground and already working with local communities to assess how best to support underprivileged families in more than 63 areas of day to day lives.</p>
+            <a href="">Explore</a>
+        </div>
+        <div class="home-img"><img src="./38.png" alt=""></div>
+    </div>
+
+
+    <!-- work section -->
+    <section id="work">
+        <h1>What We Are Doing</h1>
+        <div class="work-section">
+            <div class="child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1646927889/website-images/static/44.png" alt="">
+                <p>Welfare</p>
+            </div>
+            <div class="child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1646927857/website-images/static/41.png" alt="">
+                <p>Medical</p>
+            </div>
+            <div class="child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1646927849/website-images/static/39.png" alt="">
+                <p>Online Atyat</p>
+            </div>
+            <div class="child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1646927853/website-images/static/40.png" alt="">
+                <p>Clean Water</p>
+            </div>
+            <div class="child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1646927923/website-images/static/48.png" alt="">
+                <p>Eduction</p>
+            </div>
+            <div class="child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1646927876/website-images/static/43.png" alt="">
+                <p>Food</p>
+            </div>
+        </div>  
+    </section>
+    <section id="last">
+        <div class="last-section">
+            <div class="last-child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1654923364/website-images/dynamic/c6fdf6af-51d5-4388-97ef-6cf10eb73aca.jpg" alt="">
+
+                <div class="last-content">
+                    <h2>IT Enterpreneurship Courses</h2>
+                    <button>Donate</button>
+                </div>
+            </div>
+            <div class="last-child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1676274365/website-images/dynamic/b0abff1d-a3f9-49a7-9d58-273bbc735561.jpg" alt="">
+
+                <div class="last-content">
+                    <h2>Daily Food</h2>
+                    <button>Donate</button>
+                </div>
+            </div>
+            <div class="last-child">
+                <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1678691645/website-images/dynamic/8517e89c-e41d-4868-8c92-3bbc0d1f9339.jpg" alt="">
+
+                <div class="last-content">
+                    <h2>Zakat</h2>
+                    <button>Donate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Daily meals,', 'Monthly Family Support', 'healthcare and lot more', 'IT and vocational trainings,'],
+      typeSpeed: 80,
+      backSpeed: 80,
+      loop: true,
+    });
+  </script>
+    
+</body>
+</html>
