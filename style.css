@@ -306,7 +306,7 @@ button:nth-child(2){
         height: 200vh;
     }
     .home-text{
-        margin-top: 50px;
+        margin-top: -60px;
         width: 100%;
         margin-bottom: 40px;
     }
@@ -317,7 +317,7 @@ button:nth-child(2){
         width: 80%;
         height: 100%;
         align-self: center;
-        margin-top: -200px;
+        margin-top: -400px;
     }
     .child{
         width: 47%;
